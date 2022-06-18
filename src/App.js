@@ -1,5 +1,7 @@
 const App = (name) => {
-  return <h1>Learning webpack today {name}</h1>;
+  return `<h1>Learning webpack today ${name}</h1>`;
 };
 
 export default App;
+// require is not supported in browsers
+// require in node side API
